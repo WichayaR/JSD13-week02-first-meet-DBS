@@ -6,8 +6,8 @@ db.orders.deleteMany({});
 // Insert mock data for orders collection (10 orders)
 db.orders.insertMany([
   {
-    "_id": "order0001",
-    "userId": "user0001",
+    "_id": ObjectId("65f400000000000000000401"),
+    "userId": ObjectId("65f400000000000000000001"),
     "orderDate": ISODate("2026-07-13T10:00:00Z"),
     "totalAmount": 370,
     "status": "paid",
@@ -18,8 +18,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0002",
-    "userId": "user0002",
+    "_id": ObjectId("65f400000000000000000402"),
+    "userId": ObjectId("65f400000000000000000002"),
     "orderDate": ISODate("2026-07-13T11:30:00Z"),
     "totalAmount": 510,
     "status": "shipping",
@@ -31,8 +31,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0003",
-    "userId": "user0003",
+    "_id": ObjectId("65f400000000000000000403"),
+    "userId": ObjectId("65f400000000000000000003"),
     "orderDate": ISODate("2026-07-13T15:15:00Z"),
     "totalAmount": 195,
     "status": "pending",
@@ -42,8 +42,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0004",
-    "userId": "user0004",
+    "_id": ObjectId("65f400000000000000000404"),
+    "userId": ObjectId("65f400000000000000000004"),
     "orderDate": ISODate("2026-07-14T09:00:00Z"),
     "totalAmount": 265,
     "status": "paid",
@@ -54,8 +54,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0005",
-    "userId": "user0005",
+    "_id": ObjectId("65f400000000000000000405"),
+    "userId": ObjectId("65f400000000000000000005"),
     "orderDate": ISODate("2026-07-14T10:30:00Z"),
     "totalAmount": 430,
     "status": "paid",
@@ -66,8 +66,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0006",
-    "userId": "user0006",
+    "_id": ObjectId("65f400000000000000000406"),
+    "userId": ObjectId("65f400000000000000000006"),
     "orderDate": ISODate("2026-07-14T12:00:00Z"),
     "totalAmount": 150,
     "status": "completed",
@@ -80,8 +80,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0007",
-    "userId": "user0007",
+    "_id": ObjectId("65f400000000000000000407"),
+    "userId": ObjectId("65f400000000000000000007"),
     "orderDate": ISODate("2026-07-14T14:45:00Z"),
     "totalAmount": 470,
     "status": "paid",
@@ -92,8 +92,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0008",
-    "userId": "user0008",
+    "_id": ObjectId("65f400000000000000000408"),
+    "userId": ObjectId("65f400000000000000000008"),
     "orderDate": ISODate("2026-07-15T08:30:00Z"),
     "totalAmount": 180,
     "status": "pending",
@@ -103,8 +103,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0009",
-    "userId": "user0009",
+    "_id": ObjectId("65f400000000000000000409"),
+    "userId": ObjectId("65f400000000000000000009"),
     "orderDate": ISODate("2026-07-15T11:00:00Z"),
     "totalAmount": 385,
     "status": "paid",
@@ -115,8 +115,8 @@ db.orders.insertMany([
     "paymentMethod": "PromptPay"
   },
   {
-    "_id": "order0010",
-    "userId": "user0001", // user0001 สั่งซื้อครั้งที่สอง
+    "_id": ObjectId("65f40000000000000000040a"),
+    "userId": ObjectId("65f400000000000000000001"), // user0001 สั่งซื้อครั้งที่สอง
     "orderDate": ISODate("2026-07-15T16:00:00Z"),
     "totalAmount": 290,
     "status": "paid",

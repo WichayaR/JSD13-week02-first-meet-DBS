@@ -6,53 +6,53 @@ db.preferences.deleteMany({});
 // Insert mock data for preferences collection (10 records)
 db.preferences.insertMany([
   {
-    "_id": "pref0001",
-    "userId": "user0001",
+    "_id": ObjectId("65f400000000000000000201"),
+    "userId": ObjectId("65f400000000000000000001"),
     "categoryName": ["พัฒนาตัวเอง", "วรรณกรรมแปล", "ฮีลใจ"]
   },
   {
-    "_id": "pref0002",
-    "userId": "user0002",
+    "_id": ObjectId("65f400000000000000000202"),
+    "userId": ObjectId("65f400000000000000000002"),
     "categoryName": ["ธุรกิจและการลงทุน", "เทคโนโลยีและวิทยาศาสตร์"]
   },
   {
-    "_id": "pref0003",
-    "userId": "user0003",
+    "_id": ObjectId("65f400000000000000000203"),
+    "userId": ObjectId("65f400000000000000000003"),
     "categoryName": ["ศิลปะและการออกแบบ", "วรรณกรรมไทย", "ฮีลใจ"]
   },
   {
-    "_id": "pref0004",
-    "userId": "user0004",
+    "_id": ObjectId("65f400000000000000000204"),
+    "userId": ObjectId("65f400000000000000000004"),
     "categoryName": ["นวนิยายสืบสวน", "วรรณกรรมแปล"]
   },
   {
-    "_id": "pref0005",
-    "userId": "user0005",
+    "_id": ObjectId("65f400000000000000000205"),
+    "userId": ObjectId("65f400000000000000000005"),
     "categoryName": ["ประวัติศาสตร์", "ปรัชญา", "พัฒนาตัวเอง"]
   },
   {
-    "_id": "pref0006",
-    "userId": "user0006",
+    "_id": ObjectId("65f400000000000000000206"),
+    "userId": ObjectId("65f400000000000000000006"),
     "categoryName": ["สุขภาพและอาหาร", "การท่องเที่ยว"]
   },
   {
-    "_id": "pref0007",
-    "userId": "user0007",
+    "_id": ObjectId("65f400000000000000000207"),
+    "userId": ObjectId("65f400000000000000000007"),
     "categoryName": ["การเงินส่วนบุคคล", "การตลาดและการขาย"]
   },
   {
-    "_id": "pref0008",
-    "userId": "user0008",
+    "_id": ObjectId("65f400000000000000000208"),
+    "userId": ObjectId("65f400000000000000000008"),
     "categoryName": ["วรรณกรรมเยาวชน", "แฟนตาซี"]
   },
   {
-    "_id": "pref0009",
-    "userId": "user0009",
+    "_id": ObjectId("65f400000000000000000209"),
+    "userId": ObjectId("65f400000000000000000009"),
     "categoryName": ["คอมพิวเตอร์และโปรแกรมมิ่ง", "วิทยาศาสตร์"]
   },
   {
-    "_id": "pref0010",
-    "userId": "admin0001",
+    "_id": ObjectId("65f40000000000000000020a"),
+    "userId": ObjectId("65f40000000000000000000a"),
     "categoryName": ["ประวัติศาสตร์การพิมพ์", "หนังสือหายาก"]
   }
 ]);

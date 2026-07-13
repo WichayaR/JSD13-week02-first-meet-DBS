@@ -6,7 +6,7 @@ db.books.deleteMany({});
 // Insert mock data for books collection (10 books)
 db.books.insertMany([
   {
-    "_id": "book0001",
+    "_id": ObjectId("65f400000000000000000301"),
     "title": "คิดแบบย้อนกลับ (Thinking Backward)",
     "author": "นาโอกิ ยามาดะ",
     "format": "Paperback",
@@ -17,7 +17,7 @@ db.books.insertMany([
     "volume": "เล่ม 1"
   },
   {
-    "_id": "book0002",
+    "_id": ObjectId("65f400000000000000000302"),
     "title": "ความฝันในร้านหนังสือฤดูร้อน",
     "author": "มิซึกิ ทากาฮาชิ",
     "format": "Zine",
@@ -28,7 +28,7 @@ db.books.insertMany([
     "volume": "ตอนพิเศษ"
   },
   {
-    "_id": "book0003",
+    "_id": ObjectId("65f400000000000000000303"),
     "title": "ออกแบบชีวิตด้วยดีไซน์ทิงกิ้ง (Design Your Life)",
     "author": "บิล เบอร์เน็ต",
     "format": "Paperback",
@@ -39,7 +39,7 @@ db.books.insertMany([
     "volume": "เล่มเดียวจบ"
   },
   {
-    "_id": "book0004",
+    "_id": ObjectId("65f400000000000000000304"),
     "title": "ศิลปะของการปล่อยวาง (The Art of Letting Go)",
     "author": "แคทเธอรีน มอร์แกน",
     "format": "Paperback",
@@ -50,7 +50,7 @@ db.books.insertMany([
     "volume": "เล่มเดียวจบ"
   },
   {
-    "_id": "book0005",
+    "_id": ObjectId("65f400000000000000000305"),
     "title": "ร้านกาแฟสำหรับคนหลงทาง (The Why Cafe)",
     "author": "จอห์น สเตรเลกกี",
     "format": "Paperback",
@@ -61,7 +61,7 @@ db.books.insertMany([
     "volume": "เล่มเดียวจบ"
   },
   {
-    "_id": "book0006",
+    "_id": ObjectId("65f400000000000000000306"),
     "title": "สัปดาห์นี้ขอเงียบๆ สักหน่อย (Quiet: The Power of Introverts)",
     "author": "ซูซาน เคน",
     "format": "Paperback",
@@ -72,7 +72,7 @@ db.books.insertMany([
     "volume": "เล่มเดียวจบ"
   },
   {
-    "_id": "book0007",
+    "_id": ObjectId("65f400000000000000000307"),
     "title": "กาแฟดี อารมณ์ดี (Happy Coffee, Happy Life)",
     "author": "พงศกร สุวรรณ",
     "format": "Zine",
@@ -83,7 +83,7 @@ db.books.insertMany([
     "volume": "เล่ม 1"
   },
   {
-    "_id": "book0008",
+    "_id": ObjectId("65f400000000000000000308"),
     "title": "คู่มือนักเขียนอิสระ (Self-Publishing Guide)",
     "author": "เกียรติศักดิ์ พาสุข",
     "format": "Paperback",
@@ -94,7 +94,7 @@ db.books.insertMany([
     "volume": "เล่มเดียวจบ"
   },
   {
-    "_id": "book0009",
+    "_id": ObjectId("65f400000000000000000309"),
     "title": "กวีริมระเบียง (Balcony Poetry)",
     "author": "ธนพล พริ้งแก้ว",
     "format": "Zine",
@@ -105,7 +105,7 @@ db.books.insertMany([
     "volume": "เล่มเดียวจบ"
   },
   {
-    "_id": "book0010",
+    "_id": ObjectId("65f40000000000000000030a"),
     "title": "จิตวิทยาการเงิน (The Psychology of Money)",
     "author": "มอร์แกน เฮาเซล",
     "format": "Paperback",

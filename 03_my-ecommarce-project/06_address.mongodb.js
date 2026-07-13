@@ -6,8 +6,8 @@ db.address.deleteMany({});
 // Insert mock data for address collection (10 records)
 db.address.insertMany([
   {
-    "_id": "address0001",
-    "userId": "user0001",
+    "_id": ObjectId("65f400000000000000000101"),
+    "userId": ObjectId("65f400000000000000000001"),
     "houseNo": "99/99",
     "street": "ถนนรัชดาภิเษก",
     "subDistrict": "แขวงห้วยขวาง",
@@ -16,8 +16,8 @@ db.address.insertMany([
     "zipCode": "10310"
   },
   {
-    "_id": "address0002",
-    "userId": "user0002",
+    "_id": ObjectId("65f400000000000000000102"),
+    "userId": ObjectId("65f400000000000000000002"),
     "houseNo": "123/45",
     "street": "ถนนสุขุมวิท",
     "subDistrict": "แขวงคลองเตย",
@@ -26,8 +26,8 @@ db.address.insertMany([
     "zipCode": "10110"
   },
   {
-    "_id": "address0003",
-    "userId": "user0003",
+    "_id": ObjectId("65f400000000000000000103"),
+    "userId": ObjectId("65f400000000000000000003"),
     "houseNo": "88/1",
     "street": "ถนนนิมมานเหมินท์",
     "subDistrict": "ตำบลสุเทพ",
@@ -36,8 +36,8 @@ db.address.insertMany([
     "zipCode": "50200"
   },
   {
-    "_id": "address0004",
-    "userId": "user0004",
+    "_id": ObjectId("65f400000000000000000104"),
+    "userId": ObjectId("65f400000000000000000004"),
     "houseNo": "55/12",
     "street": "ถนนลาดพร้าว",
     "subDistrict": "แขวงจอมพล",
@@ -46,8 +46,8 @@ db.address.insertMany([
     "zipCode": "10900"
   },
   {
-    "_id": "address0005",
-    "userId": "user0005",
+    "_id": ObjectId("65f400000000000000000105"),
+    "userId": ObjectId("65f400000000000000000005"),
     "houseNo": "777/8",
     "street": "ถนนพหลโยธิน",
     "subDistrict": "ตำบลคลองหนึ่ง",
@@ -56,8 +56,8 @@ db.address.insertMany([
     "zipCode": "12120"
   },
   {
-    "_id": "address0006",
-    "userId": "user0006",
+    "_id": ObjectId("65f400000000000000000106"),
+    "userId": ObjectId("65f400000000000000000006"),
     "houseNo": "10/3",
     "street": "ถนนรามคำแหง",
     "subDistrict": "แขวงหัวหมาก",
@@ -66,8 +66,8 @@ db.address.insertMany([
     "zipCode": "10240"
   },
   {
-    "_id": "address0007",
-    "userId": "user0007",
+    "_id": ObjectId("65f400000000000000000107"),
+    "userId": ObjectId("65f400000000000000000007"),
     "houseNo": "200/15",
     "street": "ถนนพะเนียง",
     "subDistrict": "ตำบลตลาดใหญ่",
@@ -76,8 +76,8 @@ db.address.insertMany([
     "zipCode": "83000"
   },
   {
-    "_id": "address0008",
-    "userId": "user0008",
+    "_id": ObjectId("65f400000000000000000108"),
+    "userId": ObjectId("65f400000000000000000008"),
     "houseNo": "15/9",
     "street": "ถนนมิตรภาพ",
     "subDistrict": "ตำบลในเมือง",
@@ -86,8 +86,8 @@ db.address.insertMany([
     "zipCode": "30000"
   },
   {
-    "_id": "address0009",
-    "userId": "user0009",
+    "_id": ObjectId("65f400000000000000000109"),
+    "userId": ObjectId("65f400000000000000000009"),
     "houseNo": "44",
     "street": "ถนนเจริญกรุง",
     "subDistrict": "แขวงบางคอแหลม",
@@ -96,8 +96,8 @@ db.address.insertMany([
     "zipCode": "10120"
   },
   {
-    "_id": "address0010",
-    "userId": "user0001", // ที่อยู่อันที่ 2 ของ user0001 เพื่อแสดงความสัมพันธ์แบบ 1:N
+    "_id": ObjectId("65f40000000000000000010a"),
+    "userId": ObjectId("65f400000000000000000001"), // ที่อยู่อันที่ 2 ของ user0001 เพื่อแสดงความสัมพันธ์แบบ 1:N
     "houseNo": "50/2",
     "street": "ถนนเพชรบุรี",
     "subDistrict": "แขวงพญาไท",
