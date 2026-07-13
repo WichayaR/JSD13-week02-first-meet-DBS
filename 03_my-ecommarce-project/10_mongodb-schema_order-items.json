@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "orderItem0001",
+    "orderId": "order0001",
+    "bookId": "book0001",
+    "quantity": 1,
+    "pricePerUnit": 250
+  },
+  {
+    "_id": "orderItem0002",
+    "orderId": "order0001",
+    "bookId": "book0002",
+    "quantity": 1,
+    "pricePerUnit": 120
+  }
+]

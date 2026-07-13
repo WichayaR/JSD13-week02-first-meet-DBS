@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "address0001",
+    "userId": "user0001",
+    "houseNo": "99/99",
+    "street": "ถนนรัชดาภิเษก",
+    "subDistrict": "แขวงห้วยขวาง",
+    "district": "เขตห้วยขวาง",
+    "province": "จังหวัดกรุงเทพมหานคร",
+    "zipCode": "10310"
+  }
+]

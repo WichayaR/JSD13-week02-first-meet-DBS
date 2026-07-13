@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "user0001",
+    "firstName": "สมชาย",
+    "lastName": "รักการอ่าน",
+    "tel": "0811234567",
+    "email": "somchai@fakemail.com",
+    "role": "customer"
+  },
+  {
+    "_id": "admin0001",
+    "firstName": "สมหญิง",
+    "lastName": "ชอบสะสม",
+    "tel": "0999999999",
+    "email": "somying@fakemail.com",
+    "role": "admin"
+  }
+]
